@@ -19,22 +19,7 @@ $bouclepour="for("+var_+"="+min+";"+var_+">="+max+";"+var_+"--){\n";
     
 return $bouclepour;
 }
-/*
-    Default template driver for JS/CC generated parsers running as
-    browser-based JavaScript/ECMAScript applications.
-    
-    WARNING:     This parser template will not run as console and has lesser
-                features for debugging than the console derivates for the
-                various JavaScript platforms.
-    
-    Features:
-    - Parser trace messages
-    - Integrated panic-mode error recovery
-    
-    Written 2007, 2008 by Jan Max Meyer, J.M.K S.F. Software Technologies
-    
-    This is in the public domain.
-*/
+
 
 var _dbg_withtrace        = false;
 var _dbg_string            = new String();
